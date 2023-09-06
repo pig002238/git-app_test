@@ -1,5 +1,5 @@
 class TestsController < ApplicationController
   def index
-    posts = Post.all
+    posts = Post.[1]
   end
 end
