@@ -1,5 +1,8 @@
 class TestsController < ApplicationController
   def index
-    posts = Post.[1]
+    posts = Post.all
+  end
+
+  def new
   end
 end
